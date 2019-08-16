@@ -1,9 +1,9 @@
-i = 0
-while i != 1:
+complete = 0
+while complete != 1:
     try:
-        c = float(input("C: "))
-        f = 1.8 * c + 32
-        print("F:", f)
-        i = 1
+        celsius = float(input("C: "))
+        fahrenheit = 1.8 * celsius + 32
+        print("F:", fahrenheit)
+        complete = 1
     except ValueError:
         print("That's not a number.")
